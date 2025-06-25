@@ -43,7 +43,7 @@ export PYTORCH_NPU_ALLOC_CONF=max_split_size_mb:256
 Run the following script to execute offline inference on a single NPU:
 
 :::::{tab-set}
-::::{tab-item} AclGraph Mode
+::::{tab-item} Graph Mode
 
 ```{code-block} python
    :substitutions:
@@ -86,8 +86,8 @@ prompts = [
 sampling_params = SamplingParams(temperature=0.8, top_p=0.95)
 llm = LLM(
         model="Qwen/Qwen3-8B",
-        enforce_eager=True,
-        max_model_len=26240
+        max_model_len=26240,
+        enforce_eager=True
 )
 
 outputs = llm.generate(prompts, sampling_params)
@@ -111,7 +111,7 @@ Prompt: 'The future of AI is', Generated text: ' following you. As the technolog
 Run docker container to start the vLLM server on a single NPU:
 
 :::::{tab-set}
-::::{tab-item} AclGraph Mode
+::::{tab-item} Graph Mode
 
 ```{code-block} bash
    :substitutions:
@@ -158,7 +158,7 @@ docker run --rm \
 -e VLLM_USE_MODELSCOPE=True \
 -e PYTORCH_NPU_ALLOC_CONF=max_split_size_mb:256 \
 -it $IMAGE \
-VLLM_USE_V1=1 vllm serve Qwen/Qwen3-8B  --enforce-eager --max_model_len 26240
+VLLM_USE_V1=1 vllm serve Qwen/Qwen3-8B --max_model_len 26240 --enforce-eager
 ```
 ::::
 :::::
