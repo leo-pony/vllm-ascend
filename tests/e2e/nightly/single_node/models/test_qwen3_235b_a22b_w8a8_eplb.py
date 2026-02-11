@@ -54,11 +54,12 @@ aisbench_cases = [{
 async def test_models(model: str) -> None:
     port = get_open_port()
     env_dict = {
-        "OMP_NUM_THREADS": "10",
+        "OMP_NUM_THREADS": "1",
         "OMP_PROC_BIND": "false",
         "HCCL_BUFFSIZE": "1024",
         "PYTORCH_NPU_ALLOC_CONF": "expandable_segments:True",
-        "VLLM_ASCEND_ENABLE_FLASHCOMM1": "1"
+        "VLLM_ASCEND_ENABLE_FLASHCOMM1": "1",
+        "VLLM_ASCEND_ENABLE_FUSED_MC2": "1"
     }
     additional_config: dict[str, Any] = {}
     compilation_config = {"cudagraph_mode": "FULL_DECODE_ONLY"}
