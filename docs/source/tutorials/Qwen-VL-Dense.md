@@ -407,7 +407,7 @@ vllm serve Qwen/Qwen2.5-VL-32B-Instruct \
     --tensor-parallel-size 2 \
     --max-model-len 30000 \
     --max-num-batched-tokens 50000 \
-    --max-num-seqs 30 \
+    --max-num-seqs 400 \
     --no-enable-prefix-caching \
     --trust-remote-code \
     --dtype bfloat16

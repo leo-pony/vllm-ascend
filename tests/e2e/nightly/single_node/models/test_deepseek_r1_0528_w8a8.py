@@ -87,6 +87,15 @@ async def test_models(model: str, mode: str) -> None:
     ]
     if mode == "single":
         server_args.append("--enforce-eager")
+    else:
+        compilation_config = {
+            "cudagraph_capture_sizes": [4, 16, 32, 48, 64],
+            "cudagraph_mode": "FULL_DECODE_ONLY"
+        }
+        server_args.extend([
+            "--compilation-config", json.dumps(compilation_config)
+        ])
+
     server_args.extend(["--additional-config", json.dumps(additional_config)])
     request_keyword_args: dict[str, Any] = {
         **api_keyword_args,

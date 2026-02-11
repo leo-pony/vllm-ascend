@@ -181,7 +181,7 @@ vllm serve /model/Qwen3-32B-W8A8 \
   --quantization ascend \
   --distributed-executor-backend mp \
   --tensor-parallel-size 4 \
-  --max-model-len 5500 \
+  --max-model-len 8192 \
   --max-num-batched-tokens 40960 \
   --compilation-config '{"cudagraph_mode": "FULL_DECODE_ONLY"}' \
   --additional-config '{"pa_shape_list":[48,64,72,80], "weight_prefetch_config":{"enabled":true}}' \

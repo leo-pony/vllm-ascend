@@ -73,7 +73,7 @@ async def test_models(model: str) -> None:
         "--quantization", "ascend", "--reasoning-parser", "qwen3",
         "--tensor-parallel-size", "4", "--port",
         str(port), "--max-model-len", "8192", "--max-num-batched-tokens",
-        "8192", "--max-num-seqs", "256", "--trust-remote-code",
+        "40960", "--max-num-seqs", "256", "--trust-remote-code",
         "--gpu-memory-utilization", "0.9", "--additional-config",
         json.dumps(additional_config)
     ]

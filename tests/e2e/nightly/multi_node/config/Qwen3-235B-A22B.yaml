@@ -27,7 +27,7 @@ deployment:
         --seed 1024
         --enable-expert-parallel
         --max-num-seqs 32
-        --max-model-len 8192
+        --max-model-len 32768
         --max-num-batched-tokens 8192
         --trust-remote-code
         --no-enable-prefix-caching
@@ -44,12 +44,13 @@ deployment:
         --tensor-parallel-size 8
         --seed 1024
         --max-num-seqs 32
-        --max-model-len 8192
+        --max-model-len 32768
         --max-num-batched-tokens 8192
         --enable-expert-parallel
         --trust-remote-code
         --no-enable-prefix-caching
         --gpu-memory-utilization 0.9
+        --async-scheduling
 benchmarks:
   perf:
     case_type: performance

@@ -186,9 +186,9 @@ vllm serve vllm-ascend/Qwen3-235B-A22B \
 --served-model-name qwen3 \
 --tensor-parallel-size 8 \
 --enable-expert-parallel \
---max-num-seqs 16 \
---max-model-len 32768 \
---max-num-batched-tokens 4096 \
+--max-num-seqs 128 \
+--max-model-len 40960 \
+--max-num-batched-tokens 8192 \
 --trust-remote-code \
 --async-scheduling \
 --gpu-memory-utilization 0.9 \
@@ -231,9 +231,9 @@ vllm serve vllm-ascend/Qwen3-235B-A22B \
 --seed 1024 \
 --tensor-parallel-size 8 \
 --served-model-name qwen3 \
---max-num-seqs 16 \
---max-model-len 32768 \
---max-num-batched-tokens 4096 \
+--max-num-seqs 128 \
+--max-model-len 40960 \
+--max-num-batched-tokens 8192 \
 --enable-expert-parallel \
 --trust-remote-code \
 --async-scheduling \

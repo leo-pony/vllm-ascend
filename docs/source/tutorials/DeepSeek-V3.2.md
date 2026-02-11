@@ -152,7 +152,7 @@ vllm serve /root/.cache/modelscope/hub/models/vllm-ascend/DeepSeek-V3.2-W8A8 \
 --enable-expert-parallel \
 --max-num-seqs 16 \
 --max-model-len 8192 \
---max-num-batched-tokens 4096 \
+--max-num-batched-tokens 8192 \
 --trust-remote-code \
 --no-enable-prefix-caching \
 --gpu-memory-utilization 0.92 \
@@ -212,7 +212,7 @@ vllm serve /root/.cache/modelscope/hub/models/vllm-ascend/DeepSeek-V3.2-W8A8 \
 --enable-expert-parallel \
 --max-num-seqs 16 \
 --max-model-len 8192 \
---max-num-batched-tokens 4096 \
+--max-num-batched-tokens 8192 \
 --trust-remote-code \
 --no-enable-prefix-caching \
 --gpu-memory-utilization 0.92 \
@@ -261,7 +261,7 @@ vllm serve /root/.cache/modelscope/hub/models/vllm-ascend/DeepSeek-V3.2-W8A8 \
 --enable-expert-parallel \
 --max-num-seqs 16 \
 --max-model-len 8192 \
---max-num-batched-tokens 4096 \
+--max-num-batched-tokens 8192 \
 --trust-remote-code \
 --no-enable-prefix-caching \
 --gpu-memory-utilization 0.92 \
@@ -317,7 +317,7 @@ vllm serve /root/.cache/modelscope/hub/models/vllm-ascend/DeepSeek-V3.2-W8A8 \
 --enable-expert-parallel \
 --max-num-seqs 16 \
 --max-model-len 8192 \
---max-num-batched-tokens 4096 \
+--max-num-batched-tokens 8192 \
 --trust-remote-code \
 --no-enable-prefix-caching \
 --gpu-memory-utilization 0.92 \
@@ -372,7 +372,7 @@ vllm serve /root/.cache/modelscope/hub/models/vllm-ascend/DeepSeek-V3.2-W8A8 \
 --enable-expert-parallel \
 --max-num-seqs 16 \
 --max-model-len 8192 \
---max-num-batched-tokens 4096 \
+--max-num-batched-tokens 8192 \
 --trust-remote-code \
 --no-enable-prefix-caching \
 --gpu-memory-utilization 0.92 \

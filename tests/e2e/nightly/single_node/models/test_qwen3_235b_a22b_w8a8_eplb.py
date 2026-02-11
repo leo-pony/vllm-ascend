@@ -67,7 +67,7 @@ async def test_models(model: str) -> None:
         "--data-parallel-size", "4", "--tensor-parallel-size", "4",
         "--enable-expert-parallel", "--port",
         str(port), "--max-model-len", "40960", "--max-num-batched-tokens",
-        "8192", "--max-num-seqs", "12", "--trust-remote-code",
+        "16384", "--max-num-seqs", "128", "--trust-remote-code",
         "--gpu-memory-utilization", "0.9"
     ]
     env_dict["DYNAMIC_EPLB"] = "true"

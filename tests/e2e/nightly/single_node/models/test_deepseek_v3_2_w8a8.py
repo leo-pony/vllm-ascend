@@ -80,7 +80,7 @@ async def test_models(model: str, tp_size: int, dp_size: int) -> None:
         str(tp_size), "--data-parallel-size",
         str(dp_size), "--port",
         str(port), "--max-model-len", "8192", "--max-num-batched-tokens",
-        "8192", "--max-num-seqs", "4", "--trust-remote-code", "--quantization",
+        "8192", "--max-num-seqs", "16", "--trust-remote-code", "--quantization",
         "ascend", "--gpu-memory-utilization", "0.92", "--compilation-config",
         '{"cudagraph_capture_sizes":[3, 6, 9, 12], "cudagraph_mode":"FULL_DECODE_ONLY"}',
         "--speculative-config",

@@ -79,7 +79,7 @@ async def test_models(model: str, tp_size: int) -> None:
         str(port), "--trust-remote-code", "--reasoning-parser", "qwen3",
         "--distributed_executor_backend", "mp", "--gpu-memory-utilization",
         "0.9", "--block-size", "128", "--max-num-seqs", "256",
-        "--enforce-eager", "--max-model-len", "35840",
+        "--enforce-eager", "--async-scheduling", "--max-model-len", "35840",
         "--max-num-batched-tokens", "35840", "--additional-config",
         '{"enable_weight_nz_layout":true, "weight_prefetch_config":{"enabled": true}}',
         "--compilation-config",
