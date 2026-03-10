@@ -1,0 +1,1043 @@
+[
+  {
+    "number": 4123,
+    "title": "[Bug]: v0.11.0rc1 seems to have broken Multi-Node Expert Parallelism.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4123",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4132,
+    "title": "[Bug]:  \"Worker failed with error 'Forward context is not set\" in 0.11.0rc1",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4132",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4244,
+    "title": "[Bug]: PD分离分布式DP场景MooncakeConnector没有考虑PP并行，kv传输端口分配会冲突",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4244",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4260,
+    "title": "[Bug]: QWEN3-VL-235B-A22B使用910B单机16卡部署，开EP无法启动",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4260",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4269,
+    "title": "[Bug]: GLM4.6 PD分离 使用mooncake池化 八机部署无法稳定启动",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4269",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4273,
+    "title": "[Bug]: DP8 场景下量化推理存在精度问题",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4273",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4281,
+    "title": "[Bug]: vllm起服务ip设为服务器ip报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4281",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4322,
+    "title": "[Bug]: x86+npu环境，部署DeepSeek-V3.2-Exp-BF16后curl请求程序崩溃",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4322",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4326,
+    "title": "[Bug]: Qwen3-moe FULL_DECODE_ONLY inference crash",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4326",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4339,
+    "title": "[Bug]: [Nightly]multi-node A3 eplb and A2 deepseek eplb failed,",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4339",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4344,
+    "title": "[Bug]: 部署qwen vl视觉类模型引起物理机宕机",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4344",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4369,
+    "title": "[Bug]: [Nightly]2A2 deepseek single op server started failed",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4369",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4379,
+    "title": "[Bug]: The Qwen3 - Next - 80B - A3B - Instruct model is deployed on 8 cards of the 910B with 64G memory, and out - of - memory (OOM) occurs.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4379",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4450,
+    "title": "[Bug]: Qwen3-Coder-480B-A35B-Instruct vllm 开启expert-parallel出现报错；开启量化报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4450",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4451,
+    "title": "[Bug]: When starting the service with Qwen3-VL-32B (Dense) integrated with ACL Graph and FlashCommonV1, an error occurs.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4451",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4454,
+    "title": "[Bug]: RuntimeError: Engine core initialization failed. See root cause above. Failed core proc(s): {}",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4454",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4461,
+    "title": "[Bug]: Accuracy issue on Qwen3-30B-A3B",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4461",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4466,
+    "title": "[Bug]: PD分离在D节点开启Full_decoce_only后多并发推理报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4466",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4474,
+    "title": "[Bug]: vllm-ascend:v0.11.0rc2  qwen3-next-80B OOM",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4474",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4481,
+    "title": "[Bug]: 启动Qwen3-Reranker模型调用rerank API直接Crash",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4481",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4487,
+    "title": "[Bug]: vLLM-ascend0.11.0rc2-310p拉起Qwen3-32B-w4a4报错：AttributeError: 'AscendQKVParallelLinear' object has no attribute 'weight'",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4487",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4488,
+    "title": "[Bug]: PD分离LLMDataDist在Box上超过8卡失败",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4488",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4618,
+    "title": "[Bug]: olmOCR-2-7B-1025: Poor Accuracy with vllm-ascend vs A100 vLLM",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4618",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4664,
+    "title": "[Bug]: A+X环境部署12月1日发布的deepseek-V3.2模型InterleaveRope和KvRmsNormRopeCache算子编译失败。",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4664",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4665,
+    "title": "[Bug]: Qwen3-VL-235B-A22B-Instruct inference error",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4665",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4679,
+    "title": "[Bug]: Hardware Compatibility Issue when Running qwen3-reranker-8b on Image Version v0.11.0rc3",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4679",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4695,
+    "title": "[Bug]: 设置VLLM_ENABLE_FUSED_EXPERTS_ALLGATHER_EP=1推理deepseek-r1，模型乱回答问题",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4695",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4792,
+    "title": "[Bug]: DeepSeek-V3.2 start failed",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4792",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4796,
+    "title": "[Bug]: 不支持bge-reranker-v2-m3？",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4796",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4803,
+    "title": "[Bug]: PD混布多DP场景下chunksize大于8K会存在精度问题",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4803",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4808,
+    "title": "[v0.11.0] FAQ / Feedback | 问题/反馈",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4808",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4835,
+    "title": "[Bug]: v0.11.0rc3拉起DeepSeek-V3.2报错:KeyError: 'model.embed_tokens.weight'",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4835",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4859,
+    "title": "[Bug]: Encountered \"call aclnnInplaceZero failed, error code is 561103\" when running example inference test",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4859",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 4863,
+    "title": "[Bug]: Runtime Error: ImportError: cannot import name 'STR_DTYPE_TO_TORCH_DTYPE' from 'vllm.utils' when running vllm-ascend with Qwen3-Reranker-8B",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/4863",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5020,
+    "title": "[Bug]: Encounter an out of memory error with the tutorial of V0.12.0RC1 for Qwen3-Next",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5020",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5031,
+    "title": "[Bug]: Launch model with lora, cannot access to the original model, and have accuracy issue",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5031",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5041,
+    "title": "[Bug]:  DS-V3.2 A2部署测试时，出现张量形状大小不一致的报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5041",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5043,
+    "title": "[Bug]: Qwen3-next enable mtp with 0.12.0rc1 ops-error occurred.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5043",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5056,
+    "title": "[Bug]: DeepSeek-V3.2 with A2(64G) * 16 with exception <code>RuntimeError: aclnnLightningIndexer or aclnnLightningIndexerGetWorkspaceSize not in libopapi.so, or libopapi.sonot found.</code>",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5056",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5076,
+    "title": "[Bug]: EngineCore encountered an issue running Qwen3-Coder-480B-A35B-Instruct with Full decode only graph.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5076",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5083,
+    "title": "[Bug]: the output is None of model inference when using vllm-asend 0.12.0 rc1",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5083",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5087,
+    "title": "[Bug]:(EngineCore_DP1 pid=235461) INFO 12-16 08:25:51 [shm_broadcast.py:466] No available shared memory broadcast block found in 60 seconds. This typically happens when some processes are hanging or doing some time-consuming work (e.g. compilation).",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5087",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5213,
+    "title": "[Bug]: fail to start multi server on the same NPU",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5213",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5215,
+    "title": "[Bug]: Phi-4-mini-instruct benchmark推理精度异常为0.08%",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5215",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5219,
+    "title": "[Bug]: The _PCP and _MC2 communication group did not consider the PP in the initialization process of <code>parallel_state.py</code>.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5219",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5227,
+    "title": "[Bug]:suffix spec decode in v0.12.0rc1 run with PP&gt;2 meet IndexError",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5227",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5245,
+    "title": "[Bug]:AttributeError: 'Qwen3VLConfig' object has no attribute 'num_key_value_heads",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5245",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5252,
+    "title": "[Bug]: Probabilistic failure on tests/e2e/singlecard/test_async_scheduling.py::test_with_spec_decoding",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5252",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5262,
+    "title": "[Bug] VL Model Out-of-Memory (OOM) Due to Missing MM Cache in determine_available_memory",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5262",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5269,
+    "title": "[Bug] Qwen2.5 Generates Garbled Output on Prefix Cache Hit",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5269",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5295,
+    "title": "[Bug]: GLM DP2 + TP8 910B 16卡",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5295",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5367,
+    "title": "[Bug]: 未对流式输出media_type做分支处理",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5367",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5385,
+    "title": "[Bug]: AttributeError: 'AscendRotartEmbedding' object has no attribute 'cos_cached'",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5385",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5401,
+    "title": "[Bug]: Failed to load Qwen3-Next-80B on 910B by docker image v0.11.0",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5401",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5404,
+    "title": "[Bug]: Mooncake Layerwise PD分离部署DeepSeek-v3-W8A8模型，Decoder节点收到KV缓存后未应用",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5404",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5414,
+    "title": "[Bug]: Qwen3omni 推理时未能充分利用KV Cache",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5414",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5429,
+    "title": "[Bug]: Qwen1.5-14B A2单机8卡量化推理部署，处理请求时报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5429",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5439,
+    "title": "[Bug]: test_qwen3_next_distributed_mp_eager_mtp_similarity_tp4 fail because accuracy drop",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5439",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5509,
+    "title": "[Bug]: DeepSeek-V3.1  RuntimeError: The Inner error is reported as above. The process exits for this inner error, and the current working operator name is aclnnInplaceCopy.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5509",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5514,
+    "title": "[Bug]: vllm-ascend部署GLM4.6V报错：AttributeError: 'NPUModelRunner' object has no attribute 'mm_budget'",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5514",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5525,
+    "title": "[Bug]: 使用vllm-bench压测qwen3-embedding-8b 的时候，会把这个embedding服务搞崩",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5525",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5544,
+    "title": "[Bug]: Verl + vllm-ascend(v0.11.0) dp+ep+tp+server mode inference accuracy has decreased",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5544",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5549,
+    "title": "[Bug]: 310p3 启动qwen3-embeding-06B 报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5549",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5557,
+    "title": "[Bug]: 通过910B4 32G VNPU部署bge-m3报错 : Failed to apply for memory.   Check the remaining storage space in the hardware environment.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5557",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5564,
+    "title": "[Bug]:使用0.11.0rc3和0.13.0版本镜像部署DeepSeek-R1-Distill-Llama-70B（int8）模型，报错  is_skipped = self.quant_description[prefix + '.weight'] == \"FLOAT\"",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5564",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5571,
+    "title": "[Bug]: in v0.13.0rc1 version，During multimodal deployment, an error occurs: NPUAttributeError: 'NPUModelRunner' object has no attribute 'm_budget'",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5571",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5634,
+    "title": "[Bug]: Intermittent CI failure due to a compilation error in the triton operator.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5634",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5635,
+    "title": "[Bug]: PD分离 mooncake tansfer bug",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5635",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5643,
+    "title": "[Bug]: [EPLB] 按照训练的强化学习框架的精度标准静态负载均衡可能存在精度问题",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5643",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5645,
+    "title": "[Bug]: No exception is thrown when graph capture fails.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5645",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5650,
+    "title": "[Bug]: Unable to run multiple models on a single NPU",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5650",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5660,
+    "title": "Failed to transfer KV cache for request chatcmpl-7817d6df-206c-4aca-bfac-c43df205506f: Mooncake transfer failed, ret: -1",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5660",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5663,
+    "title": "[Bug]: 0.11.0.RC2双机部署deepseek失败",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5663",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5724,
+    "title": "[Bug]: KIMI-k2在910B卡用vllm推理的时候报错KeyError: 'model.layers.30.self_attn.attn'",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5724",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5725,
+    "title": "[Bug]: Qwen3-Embedding-0.6B计算向量，同一个字符串的第一次和第二次计算的向量不一致，存在很大误差",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5725",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5745,
+    "title": "[Bug]: 加载qwen2.5-vl-7B-Instruct有时候会输出一堆感叹号或者是引用一些莫名其妙的图片",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5745",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5750,
+    "title": "[Bug]: An error occurred while performing inference with the Qwen3-Next-80B-A3B-Instruct model using the vllm-ascend-0.13.0-rc1 image on 4 Ascend 910B cards：Failed to compile custom operators with Triton Ascend.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5750",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5760,
+    "title": "[Bug]: vllm-ascend 部署 Qwen3-VL-8B-Instruct , curl 等待执行完后接受为空",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5760",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5894,
+    "title": "[Bug]: vllm-ascend:v0.13.0rc1运行Glm-4.5-air频繁出错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5894",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5898,
+    "title": "[Bug]: vllm-ascend 0.13.0.rc1  DeepSeek V3.2 W8A8模型，开启prefix-cache &amp;&amp; 关闭mtp 稳定性异常，服务rpc报错，plog算子搬运报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5898",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5915,
+    "title": "[Bug]: Transposing during wake_up causing MoE shape mismatch in RL scenarios.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5915",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5917,
+    "title": "[Bug]: 单卡多vllm实例报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5917",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5925,
+    "title": "[Bug]: A3设备qwen3-32B模型进行ceval精度测试运行一段时间报错服务崩溃",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5925",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5948,
+    "title": "[Bug]: CPUOffloadingConnector do not work",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5948",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 5949,
+    "title": "[Bug]: 2节点，2*8*910b2拉起Qwen3-235B-A22B-Thinking-2507失败",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/5949",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6060,
+    "title": "[Bug]:  RopeOperation setup failed  when _rope_forward_oot() called  in condition of  self.rotary_dim &lt; self.head_size",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6060",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6076,
+    "title": "[Bug][CANN 8.5.0]: The failed tests while upgrading CANN to 8.5.0",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6076",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6082,
+    "title": "[Bug]: [v0.10.0rc1-310p]NPU function error: call aclnnIsNegInf failed",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6082",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6114,
+    "title": "[Bug]: Qwen3-235B-Instruct-Lora Inference error",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6114",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6127,
+    "title": "[Bug]: High hit rate of kvpool can cause OOM errors.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6127",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6134,
+    "title": "[Bug]: 安装vllm_ascend提示冲突",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6134",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6242,
+    "title": "[Bug]: vllm-ascend 0.13.0.rc2-a3启动失败",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6242",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6243,
+    "title": "[Bug]: v0.12.0rc1跑ds-v3.2偶发性报算子错误后服务中断--KvRmsNormRopeCache的tiling切分有误",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6243",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6249,
+    "title": "Qwen3 next 80b模型幻觉严重",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6249",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6253,
+    "title": "Qwen3 next 80b模型",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6253",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6257,
+    "title": "[Bug]: 离线推理gemma-3-1b-it报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6257",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6261,
+    "title": "[Bug]: 部署Qwen3-Omni-30B-A3B-Instruct模型开启FLASHCOMM启动失败",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6261",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6262,
+    "title": "[Bug]: OpenEuler 24.03 + vllm0.13.0RC1，Qwen3-VL-32B-Instruct模型推理十几次后vllm服务进程自动退出",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6262",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6264,
+    "title": "[Bug]: 在尝试安装vllm-ascend 0.13.0rc2依赖包时，提示未找到npu-smi命令，经发现是缺少NPU相关驱动",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6264",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6266,
+    "title": "[Bug]: 部署GLM-4.7 PD分离出现assert error. assert req_id in self.requests",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6266",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6275,
+    "title": "[Bug]: 双机910b2拉起deepseek v3.2量化版失败",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6275",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6283,
+    "title": "[Bug]: pipeline parallelism errors when applying flashcomm1/sp",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6283",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6359,
+    "title": "[Bug]: NPU function error when using Llama-3.1-8B-Instruct with eagle3 and long seq_lens prompt",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6359",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6377,
+    "title": "[Bug]: An error occurs when using the Eagle3 feature with the Qwen3‑VL‑235B model.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6377",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6381,
+    "title": "[Bug]: GLM-4.7-W8A8 MTP Fails when multiple requests comes in together",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6381",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6394,
+    "title": "[Bug]:Failed to import Triton kernels. Please make sure your triton version is compatible. Error: No module named 'triton.language.target_info'",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6394",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6395,
+    "title": "[Bug]: Qwen3-Next-80B model fails on inputs longer than 65535 tokens with index out-of-range error",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6395",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6446,
+    "title": "[Bug]: 0.14.0rc1+GLM-4.7，KV Cache满载时TPS大幅下降",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6446",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6449,
+    "title": "[Bug]: GLLM-4.7 MTP  infer error:RuntimeError: shape '[6, -1]' is invalid for input of size 512",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6449",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6450,
+    "title": "[Bug]: The number of tokens generated by the deep thinking of the deepseek R1 model is less than that of deepseekV3.1 terminus",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6450",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6456,
+    "title": "[Bug]:vllm0.13.0.rc1，打开full算子入图模式后精度异常",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6456",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6471,
+    "title": "[Feature]: 【Ascend 310P】运行 Qwen3-VL-Embedding-2B 时因 --runner pooling 报错：NotImplementedError: 310P does not support runner_type='pooling'",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6471",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6478,
+    "title": "[Bug]: Qwen3-next-80B with FULL_DECODE_ONLY compilation mode shows gradual memory growth and OOM after long-running inference",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6478",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6485,
+    "title": "[Bug]: Prefill-Decode Disaggregation abnormal TPOT  with 0.14.0.rc1",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6485",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6555,
+    "title": "[Bug]: ModuleNotFoundError: No module named 'flash_attn.ops'; 'flash_attn' is not a package",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6555",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6561,
+    "title": "[Bug]: Qwen3-Coder-Next模型结合qwen3_coder这个tool parser时，报错IndexError: list index out of range",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6561",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6562,
+    "title": "[Bug]: 部署Qwen3-Next或Qwen3-Coder-Next时，推理中出现告警",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6562",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6570,
+    "title": "[Bug]: MooncakeConnector finish req not in reqs to process.If it is a P node, this request may have been force freed.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6570",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6571,
+    "title": "[Bug]: 910B4+25.2.3+0.14.0rc1部署Qwen3-VL-32B-Instruct，v1/chat/completions无响应，但health和metrics正常",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6571",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6572,
+    "title": "[Bug]: A2 0.14.0rc1部署Qwen3-Coder-Next，其它参数相同，TP4能拉但TP8报OOM",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6572",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6578,
+    "title": "[Bug]: 910B A+X 基于v0.14.0 vllm-ascend运行Qwen3-32B模型出现 no attribute qkv_rmsnorm_rope",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6578",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6583,
+    "title": "[v0.13.0] FAQ / Feedback | 问题/反馈",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6583",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6671,
+    "title": "[Bug]: vllm-ascend 0.14.0rc1-a3镜像使用tp1,dp2方式运行qwen3-30b-a3b存在精度问题",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6671",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6676,
+    "title": "[Bug]: vllm-ascend推理报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6676",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6678,
+    "title": "[Bug]: 4节点 * 8卡910B，PP=4，vLLM V1 引擎初始化 KV Cache 报 KeyError",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6678",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6679,
+    "title": "[Bug]: 使用源码安装 vllm跑GLM-4.7-W8A8时异常",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6679",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6772,
+    "title": "[Bug]:GLM-5-W4A8 Still display&lt;/think&gt; token in output when thinking mode is disabled",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6772",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6774,
+    "title": "[Bug]: qwen3.5 A2 双机启动失败",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6774",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6784,
+    "title": "[Bug]: quay.io/ascend/vllm-ascend:v0.14.0rc1-a3-openeuler  longcat 拉起失败",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6784",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6790,
+    "title": "[Bug]: 部署deepseek3.1报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6790",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6793,
+    "title": "[CI]: Nightly failure",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6793",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6796,
+    "title": "[Bug]: RuntimeError: Can not support soc_version: 104.",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6796",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6799,
+    "title": "[Bug]: R1-BF16的大EP。服务拉起，单curl长度超过100token左右，D节点会挂死。",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6799",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6868,
+    "title": "[Bug]: When Running GLM5 metrics.py make server crush",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6868",
+    "labels": [
+      "bugSomething isn't working",
+      "glm5"
+    ],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6875,
+    "title": "[Bug]: A2尝试四机部署GLM5-bf16失败，报错：NPU function error: call aclnnSwiGlu failed, error code is 507014",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6875",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6909,
+    "title": "[Bug]: v0.15.0rc1-openeuler版本镜像部署的Qwen3-vl模型无完整回复",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6909",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6925,
+    "title": "[Bug]: quay.io/ascend/vllm-ascend:glm5-openeuler 部署GLM-OCR 精度劣化严重",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6925",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6926,
+    "title": "[Bug]: 开启export VLLM_TORCH_PROFILER_DIR=\"./vllm_profile\"这个变量后，发送多次curl请求会报错",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6926",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6929,
+    "title": "[Bug]: Qwen3-VL-235B模型，压测时模型内存占用一直提升，压测完毕后，重新压测依旧会继续上涨",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6929",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6934,
+    "title": "[Bug]: [kimi-k2.5] Attempted to assign 4225 = 4225 multimodal tokens to 1 placeholder",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6934",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6972,
+    "title": "[Bug]: vllm 启动 qwen3-omni 模型，尝试命令行方式--compilation-config '{\"cudagraph_mode\": \"FULL_DECODE_ONLY\", \"cudagraph_capture_sizes\":[1,2,4,8,16,24,48]}'  或yaml 文件方式，FULL_DECODE_ONLY均未生效",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6972",
+    "labels": [
+      "bugSomething isn't working"
+    ],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6980,
+    "title": "[Bug]: 在gpustack上使用vllm-ascend:glm5部署GLM-5-w4a8模型，模型输出异常",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6980",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6992,
+    "title": "【BUG】CPU binding may fail where the operating system language is Chinese",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6992",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 6999,
+    "title": "[Bug] Change <code>assert</code> to <code>warning</code> in <code>get_mc2_group</code> to prevent crash on NPU in vllm-omni",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/6999",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 7015,
+    "title": "[Bug]: 0.14.0.rc1 DeepSeek v3.2 A2双机场景下推理概率出现TimeoutError",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/7015",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 7023,
+    "title": "[Bug][Qwen3.5]:  Attempted to assign 65 = 65 multimodal tokens to 3905 placeholders",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/7023",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 7037,
+    "title": "[Bug]: qwen模型系列在longbenchv2数据集上无法实现数据集发布结果",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/7037",
+    "labels": [],
+    "created_at": "Unknown"
+  },
+  {
+    "number": 7039,
+    "title": "[Bug]: run failed for qwen2-72b w8a16 quantization",
+    "html_url": "https://github.com/vllm-project/vllm-ascend/issues/7039",
+    "labels": [],
+    "created_at": "Unknown"
+  }
+]

@@ -45,7 +45,6 @@ jobs:
         tags: lint
         flavor:
           latest=false
-
     - name: Build - Set up QEMU
       uses: docker/setup-qemu-action@v3
 

@@ -1,0 +1,101 @@
+issue_number,title,url,labels,created_at
+3847,[Bug]: vllm-ascend installation failed on A2 machine with given docker container,https://github.com/vllm-project/vllm-ascend/issues/3847,,Unknown
+3843,[Bug]: qwen3-next-80B-instruct无法启动在ascend910b4,https://github.com/vllm-project/vllm-ascend/issues/3843,,Unknown
+3832,[Installation]: 报错torch_npu/csrc/core/npu/NPUStream.h找不到,https://github.com/vllm-project/vllm-ascend/issues/3832,,Unknown
+3819,[Bug]: The lower version of Transformers does not recognize this architecture like <code>qwen3_vl</code>,https://github.com/vllm-project/vllm-ascend/issues/3819,,Unknown
+3818,[Bug]: Qwen3-VL-32B开启FULL_DECODE_ONLY报错,https://github.com/vllm-project/vllm-ascend/issues/3818,,Unknown
+3816,[Bug]: VLLM-ascend 部署GLM4.6-w8a8工具推理出现报错,https://github.com/vllm-project/vllm-ascend/issues/3816,,Unknown
+3813,[Bug]: Qwen3-Next-80B-A3B-Instruct模型8卡部署gpu-memory-utilization 0.7服务无法拉起,https://github.com/vllm-project/vllm-ascend/issues/3813,,Unknown
+3657,[Installation]: python version should above 3.10,https://github.com/vllm-project/vllm-ascend/issues/3657,,Unknown
+3642,[Community] Weekly Meeting Agenda,https://github.com/vllm-project/vllm-ascend/issues/3642,,Unknown
+3633,[Bug]: Multi-Node-DP run failed,https://github.com/vllm-project/vllm-ascend/issues/3633,,Unknown
+3627,"[Bug]: Qwen3-Next on A3 tp8 reports out of memory, tp4 works normal.",https://github.com/vllm-project/vllm-ascend/issues/3627,,Unknown
+3623,"[Bug]: Qwen2VL TypeError: list indices must be integers or slices, not tuple",https://github.com/vllm-project/vllm-ascend/issues/3623,,Unknown
+3588,[Bug]: Failed to run Qwen3 8B W4A8 in tutorials,https://github.com/vllm-project/vllm-ascend/issues/3588,,Unknown
+3520,[Bug]: GLM4.6-INT8  KeyError: 'model.layers.0.self_attn.q_proj.weight',https://github.com/vllm-project/vllm-ascend/issues/3520,,Unknown
+3494,[Bug]: qwen2.5-72b-w8a8拉起报错,https://github.com/vllm-project/vllm-ascend/issues/3494,,Unknown
+3468,[Bug]: vllm-ascend-0.11.0rc0 部署qwen3-vl-30b-a3b，请求消息带视频，报错。,https://github.com/vllm-project/vllm-ascend/issues/3468,,Unknown
+3467,[Bug]: Ascend-VLLM文档中Qwen3 8B W4A8的量化策略复现报错,https://github.com/vllm-project/vllm-ascend/issues/3467,,Unknown
+3464,[Bug]: 无法加载 GLM4.5-Air-FP8,https://github.com/vllm-project/vllm-ascend/issues/3464,,Unknown
+3463,[Bug]: Qwen3-32B TP4 使能VLLM_ASCEND_ENABLE_MLP_OPTIMIZE会导致OOM,https://github.com/vllm-project/vllm-ascend/issues/3463,,Unknown
+3377,[Bug]: Qwen3-30B-A3B cannot use enable-lora to load LoRA,https://github.com/vllm-project/vllm-ascend/issues/3377,,Unknown
+3368,[Bug]: Qwen3-next: Out of Memory due to repeated allocation of shared hybrid cache,https://github.com/vllm-project/vllm-ascend/issues/3368,,Unknown
+3367,[Bug]: Qwen3-Vl Two Node Start Failed,https://github.com/vllm-project/vllm-ascend/issues/3367,,Unknown
+3353,"[Bug][PTA]: MemcpyAsync check src or dst location failed, stream_id=2",https://github.com/vllm-project/vllm-ascend/issues/3353,,Unknown
+3349,[Bug]: vllm 0.9.1到底需要什么版本的torch,https://github.com/vllm-project/vllm-ascend/issues/3349,,Unknown
+3340,[Bug]: A+X环境Qwen2.5-72B-Instruc模型起服务长时卡住,https://github.com/vllm-project/vllm-ascend/issues/3340,,Unknown
+3325,[Bug]: Qwen3-Next-80B-A3B-Instruct 启动报错,https://github.com/vllm-project/vllm-ascend/issues/3325,,Unknown
+3313,[Bug]:MoE models get ImportError: cannot import name 'fused_topk' from 'fused_moe_module' (unknown location),https://github.com/vllm-project/vllm-ascend/issues/3313,,Unknown
+3257,如果x的dims大于2，torch_npu.npu_quant_matmul 会报错,https://github.com/vllm-project/vllm-ascend/issues/3257,,Unknown
+3255,"[Bug]: vllm-ascend 训练场景报错 assert isinstance(device, torch.device)",https://github.com/vllm-project/vllm-ascend/issues/3255,,Unknown
+3239,[Bug]:Qwen3MoeSparseMoeBlock.__init__() got an unexpected keyword argument 'config',https://github.com/vllm-project/vllm-ascend/issues/3239,,Unknown
+3237,[Bug]: medgemma-27b-it/gemma3长序列精度问题,https://github.com/vllm-project/vllm-ascend/issues/3237,,Unknown
+3210,npu_weight_quant_batchmatmul里的x size必须是2D，否则会报错，因此必须对非2D tensor进行转换,https://github.com/vllm-project/vllm-ascend/issues/3210,,Unknown
+3152,这里计算scale_bias的方式和msit中不一致，可能存在问题,https://github.com/vllm-project/vllm-ascend/issues/3152,,Unknown
+3133,[Bug]:ERROR on Ascend 910C with tensor parallel,https://github.com/vllm-project/vllm-ascend/issues/3133,,Unknown
+3129,为什么torch_npu.npu_quant_matmul中没有weight_offset?mist量化中生成了这个变量，为什么不用呢？,https://github.com/vllm-project/vllm-ascend/issues/3129,,Unknown
+3128,[Bug]: Qwen3-235B同时开启dp8tp2和aclgruph时，单条推理请求在途重放时卡住，之后报RPC超时；多并发请求可以正常处理,https://github.com/vllm-project/vllm-ascend/issues/3128,,Unknown
+3124,[Bug]: PD分离中小并发下P节点负载不均,https://github.com/vllm-project/vllm-ascend/issues/3124,,Unknown
+3111,weight_scale_bias 在哪里被调用了？,https://github.com/vllm-project/vllm-ascend/issues/3111,,Unknown
+3107,[Bug]: vllm-ascend 0.9.1rc2跑pangu pro moe的数据并行会卡住,https://github.com/vllm-project/vllm-ascend/issues/3107,,Unknown
+3098,[Bug]: vllm-ascend v0.10.2rc1版本，使用ray双机部署Qwen3-Next-80B-A3B时报错,https://github.com/vllm-project/vllm-ascend/issues/3098,,Unknown
+2997,"[Bug]: On 910B3, Qwen2.5-VL 72B with w8a8 quantization crashes when concurrency reaches 8",https://github.com/vllm-project/vllm-ascend/issues/2997,,Unknown
+2990,"[Bug]: llava-1.5-7b-hf, 910B2C, single-card,offline, hava error""not support kernel named rotary_embedding""",https://github.com/vllm-project/vllm-ascend/issues/2990,,Unknown
+2976,"[Bug]: vllm 0.10.2rc1 Qwen3-Next-80B-A3B-Instruct Aicore kernel execute failed, device_id=2, stream_id=2, report_stream_id=2, task_id=42014, flip_num=6, fault kernel_name=reshape_and_cache_200000000,",https://github.com/vllm-project/vllm-ascend/issues/2976,,Unknown
+2975,[Bug]: 重复输入同一个视频，服务报内部错误，0.10.2rc1才有，0.9.1没有问题,https://github.com/vllm-project/vllm-ascend/issues/2975,,Unknown
+2974,[Bug]: 0.10.2rc1 Qwen3-8B-W8A8 PP服务化报错,https://github.com/vllm-project/vllm-ascend/issues/2974,,Unknown
+2970,"[Bug]: Mooncake transfer failed when using ""mooncake_connector"" after setting USE_ASCEND_DIRECT",https://github.com/vllm-project/vllm-ascend/issues/2970,,Unknown
+2965,[Bug]: Error when deploying Qwen2.5-VL 72B with pipeline parallelism,https://github.com/vllm-project/vllm-ascend/issues/2965,,Unknown
+2959,[Bug]: Why does the model deployment encounter Out Of Memory (OOM) errors when the parallelization approach changes?,https://github.com/vllm-project/vllm-ascend/issues/2959,,Unknown
+2873,"[Bug]: v0.10.1rc1 run qwen3-coder failed, 910b(313T) machine crash and can not restart!",https://github.com/vllm-project/vllm-ascend/issues/2873,,Unknown
+2845,"[Bug]: When I run the example.py on the Atlas 800I A2, it still reports the error: <code>call aclnnSwiGlu failed</code>.",https://github.com/vllm-project/vllm-ascend/issues/2845,,Unknown
+2822,[Bug]: start failed due to _forward_decode_only shape error when test Phi-4-mini-instruct accuracy,https://github.com/vllm-project/vllm-ascend/issues/2822,,Unknown
+2811,[Bug]: DeepSeek0528量化mtp浮点权重ceval精度不达标,https://github.com/vllm-project/vllm-ascend/issues/2811,,Unknown
+2807,"[Bug]: vllm-ascend 0.10.1rc1官方镜像部署量化模型Qwen3-30B-A3B-W8A8出现call aclnnGroupedMatmulV5 failed,error code is 161002",https://github.com/vllm-project/vllm-ascend/issues/2807,,Unknown
+2715,"[Bug]: After enduring 2-3 concurrent occurrences, the program crashes(deepseek-v3.1)",https://github.com/vllm-project/vllm-ascend/issues/2715,,Unknown
+2701,[Bug]: Enabling Expert Parallelism (EP) in Eager Mode causes an HCCL communication error.,https://github.com/vllm-project/vllm-ascend/issues/2701,,Unknown
+2700,[Bug]: vllm-Ascend拉起medgamm模型，首次推理调用正常，二次推理报错,https://github.com/vllm-project/vllm-ascend/issues/2700,,Unknown
+2694,[Bug]: Can't catch the real error but raise TBE ERROR when generate attn_mask,https://github.com/vllm-project/vllm-ascend/issues/2694,,Unknown
+2691,[Bug]: prefill-decode (PD) disaggregation  for deepseek  in  910B3  profiling is so poor，please help,https://github.com/vllm-project/vllm-ascend/issues/2691,,Unknown
+2673,[Bug]: function-call accuracy problem with quantized deepseek model,https://github.com/vllm-project/vllm-ascend/issues/2673,,Unknown
+2671,[Bug]: PD分离，D节点先申请kv cache再编图，占用计算预留空间，压测场景D节点触发重计算OOM,https://github.com/vllm-project/vllm-ascend/issues/2671,,Unknown
+2593,[Bug]: (0.9.2rc1) Run bge-m3 with 310P3 with TP=2 got shape mismatch in rank1,https://github.com/vllm-project/vllm-ascend/issues/2593,,Unknown
+2588,[Bug]: vllm部署Llama3.1 W8A8量化模型报错,https://github.com/vllm-project/vllm-ascend/issues/2588,,Unknown
+2468,[Bug]: Deepseek bug with DBO,https://github.com/vllm-project/vllm-ascend/issues/2468,,Unknown
+2424,[Bug]: Qwen3-32b start up failed,https://github.com/vllm-project/vllm-ascend/issues/2424,,Unknown
+2422,[Bug]: 在310P3的显卡上，用v.10.0版本运行Qwen3-Embedding-0.6B，显存占到18G,https://github.com/vllm-project/vllm-ascend/issues/2422,,Unknown
+2414,[Bug]:  MiniMax/MiniMax-M1-40k and MiniMax/MiniMax-Text-01 failed to start in enage and graph model,https://github.com/vllm-project/vllm-ascend/issues/2414,,Unknown
+2406,[Bug]: Disaggregate prefill repro fail,https://github.com/vllm-project/vllm-ascend/issues/2406,,Unknown
+2399,[Bug]: link failed using llmdatadist for disaggregated prefill,https://github.com/vllm-project/vllm-ascend/issues/2399,,Unknown
+2390,[Bug]: DP on multi-node don't work,https://github.com/vllm-project/vllm-ascend/issues/2390,,Unknown
+2336,[Bug]: Empty Response,https://github.com/vllm-project/vllm-ascend/issues/2336,,Unknown
+2332,[Bug]:910B用vllm推理出现乱码,https://github.com/vllm-project/vllm-ascend/issues/2332,,Unknown
+2320,[Bug]:vllm-ascned DP+EP ERROR,https://github.com/vllm-project/vllm-ascend/issues/2320,,Unknown
+2318,[Bug]:W8A8 Per-Token Quantized Qwen3 Generates Garbled Output in vLLM but Works in Transformers,https://github.com/vllm-project/vllm-ascend/issues/2318,,Unknown
+2304,[Bug]:缓存命中为0,https://github.com/vllm-project/vllm-ascend/issues/2304,,Unknown
+2297,[Bug]: torchair报错,https://github.com/vllm-project/vllm-ascend/issues/2297,,Unknown
+2258,[Bug]: ZhipuAI/GLM-4-32B-0414 failed to start in enage and graph model,https://github.com/vllm-project/vllm-ascend/issues/2258,,Unknown
+2255,[Bug]: ZhipuAI/glm-4-9b-chat-hf failed to start in enage and graph model,https://github.com/vllm-project/vllm-ascend/issues/2255,,Unknown
+2239,"[Bug]: Qwen2.5-7B The process exits for this inner error, and the current working operator name is SelfAttentionOperation",https://github.com/vllm-project/vllm-ascend/issues/2239,,Unknown
+2229,[Bug]: Qwen3 MoE not work with DP + EP due to lack of streams,https://github.com/vllm-project/vllm-ascend/issues/2229,,Unknown
+2078,[Bug]: error encountered when trying to quantize model with modelslim,https://github.com/vllm-project/vllm-ascend/issues/2078,,Unknown
+2071,[Bug]: 0.9.rc2 with ngram spec decoding report assert attn_metadata.attn_mask is not None error,https://github.com/vllm-project/vllm-ascend/issues/2071,,Unknown
+2070,"[Bug]: ACL stream synchronize failed, error code:507053",https://github.com/vllm-project/vllm-ascend/issues/2070,,Unknown
+2069,[Bug]: 0.9.1dev版本0728，vllm ascend运行qwen3 235B A22B W8A8，800T A2 下8卡，attention dp8， moe etp8切分，上下文长度4200，推理卡死，plog报错out of memory,https://github.com/vllm-project/vllm-ascend/issues/2069,,Unknown
+2068,[Bug]: 0.9.2rc1版本 vllm ascend开启图模式场景下运行qwen2.5 14b 报错不支持旋转编码的torch api,https://github.com/vllm-project/vllm-ascend/issues/2068,,Unknown
+2064,[Bug]: OpenGVLab/InternVL3-9B failed to start in graph and eager mode,https://github.com/vllm-project/vllm-ascend/issues/2064,,Unknown
+2053,[Bug]: Qwen3-Coder-480B-A35B-Instruct poor accuracy,https://github.com/vllm-project/vllm-ascend/issues/2053,,Unknown
+1886,[Bug]:TTFT differs unexpectedly for the same prompt with different --max-num-batched-tokens,https://github.com/vllm-project/vllm-ascend/issues/1886,,Unknown
+1883,[Bug]: vllm推理internvl3的时候，报错  “selfRef expected dtype is DT_INT32 but found DT_BFLOAT16.”,https://github.com/vllm-project/vllm-ascend/issues/1883,,Unknown
+1865,[Bug]: 16卡推理ds-w8a8提示多进程卡间通讯超时,https://github.com/vllm-project/vllm-ascend/issues/1865,,Unknown
+1845,[Bug]: 基于verl的lora训练，迭代几步后，vllm进行lora推理时报错,https://github.com/vllm-project/vllm-ascend/issues/1845,,Unknown
+1815,[Bug]: deepseek-r1-w8a8 DP4 TP4 EP16 + torchair，RuntimeError: EJ0002: [PID: 38079] 2025-07-15-12:45:31.202.787 The network port is down.,https://github.com/vllm-project/vllm-ascend/issues/1815,,Unknown
+1798,[Bug]: Function Tool Call Output Not in Expected Format with DeepSeek V3 0324 w8a8 on Ascend910B,https://github.com/vllm-project/vllm-ascend/issues/1798,,Unknown
+1788,"[Bug]: [0.9.2rc1] TP=4 DP=4 EP=16 + eager + deepseek-r1-w8a8, RuntimeError: call aclnnMoeDistributeDispatch failed",https://github.com/vllm-project/vllm-ascend/issues/1788,,Unknown
+1704,[Bug]: DIST Call hccl api failed error occurred during PP in the ray cluster.,https://github.com/vllm-project/vllm-ascend/issues/1704,,Unknown
+1702,[Bug]: Cannot get correct trace results.,https://github.com/vllm-project/vllm-ascend/issues/1702,,Unknown
+1664,"[Bug]: <code>parallel_config.expert_tensor_parallel_size</code> is set even for dense model, lower the number of ACL Graphs",https://github.com/vllm-project/vllm-ascend/issues/1664,,Unknown
+1657,[Bug]: 0.9.1rc1-dev，offline推理下，启动一个自定义类Deepseek模型（只有dense层，有MLA），报错。明显的问题是：切片参数需要时整数，而这里是浮点数,https://github.com/vllm-project/vllm-ascend/issues/1657,,Unknown
+1628,[Bug]: DeepSeek-v3-w8a8 failed with DBO,https://github.com/vllm-project/vllm-ascend/issues/1628,,Unknown
+1617,[Bug]: vllm.LLM内参数设置不对会导致out of memory？,https://github.com/vllm-project/vllm-ascend/issues/1617,,Unknown
+1592,[Bug]: vllm-ascend v0.7.3.post1推理运行时，对于提示词中有JSON格式要求输出的情况会crash,https://github.com/vllm-project/vllm-ascend/issues/1592,,Unknown
