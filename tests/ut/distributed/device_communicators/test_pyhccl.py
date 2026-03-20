@@ -6,7 +6,7 @@ from vllm.distributed.utils import StatelessProcessGroup
 from tests.ut.base import TestBase
 from vllm_ascend.distributed.device_communicators.pyhccl import \
     PyHcclCommunicator
-from vllm_ascend.utils import ACL_FORMAT_FRACTAL_NZ, vllm_version_is
+from vllm_ascend.utils import vllm_version_is
 
 
 class MockHcclLib:
